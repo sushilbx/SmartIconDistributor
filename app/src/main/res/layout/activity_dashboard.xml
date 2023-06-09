@@ -24,13 +24,20 @@
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
-        <ImageView
+        <LinearLayout
             android:id="@+id/back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="@drawable/vector__64_"
-            android:padding="13dp" />
+            android:padding="10dp">
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/vector__64_" />
+        </LinearLayout>
+
     </LinearLayout>
 
     <androidx.core.widget.NestedScrollView
@@ -237,13 +244,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
-
-
-
-
-
-
-
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </LinearLayout>
