@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blur"
+    android:orientation="vertical"
+    tools:context=".NavigationActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginStart="80dp">
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:navigationIcon="@drawable/vector__65_"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dashboard"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:drawableEnd="@drawable/vector__66_"
+                android:textColor="#1D1E20"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selling Panel"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:drawableEnd="@drawable/vector__66_"
+                android:textColor="#1D1E20"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Order Management"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:drawableEnd="@drawable/vector__66_"
+                android:textColor="#1D1E20"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deposit Request"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:drawableEnd="@drawable/vector__66_"
+                android:textColor="#1D1E20"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wallet"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:drawableEnd="@drawable/vector__66_"
+                android:textColor="#1D1E20"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="profie"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:drawableEnd="@drawable/vector__66_"
+                android:textColor="#1D1E20"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Orders"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:drawableEnd="@drawable/vector__66_"
+                android:textColor="#1D1E20"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Orders"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:drawableEnd="@drawable/vector__66_"
+                android:textColor="#1D1E20"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Logout"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:drawableEnd="@drawable/vector__66_"
+                android:textColor="#1D1E20"/>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
