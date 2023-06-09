@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.view.View
 import androidx.core.content.ContentProviderCompat.requireContext
 import com.app.smarticondistributor.adapters.DailyTranscationAdapters
+import com.app.smarticondistributor.adapters.OrderDetailsAdapters
+import com.app.smarticondistributor.adapters.ProductAdapters
 import com.app.smarticondistributor.databinding.ActivityDashboardBinding
 
 class DashboardActivity : AppCompatActivity() {
@@ -23,6 +25,10 @@ class DashboardActivity : AppCompatActivity() {
         })
         val dailyTranscationAdapters = DailyTranscationAdapters(this)
         b.rvDaily.adapter = dailyTranscationAdapters
+        val orderDetailsAdapters = OrderDetailsAdapters(this)
+        b.rvOrder.adapter = orderDetailsAdapters
+        val productAdapters = ProductAdapters(this)
+        b.rvProduct.adapter = productAdapters
 
     }
 }
