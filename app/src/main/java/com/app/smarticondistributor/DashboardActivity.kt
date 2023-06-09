@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.core.content.ContentProviderCompat.requireContext
+import com.app.smarticondistributor.adapters.DailyTranscationAdapters
 import com.app.smarticondistributor.databinding.ActivityDashboardBinding
 
 class DashboardActivity : AppCompatActivity() {
@@ -18,8 +20,9 @@ class DashboardActivity : AppCompatActivity() {
                 val intent = Intent(this@DashboardActivity, NavigationActivity::class.java);
                 startActivity(intent);
             }
-
         })
+        val dailyTranscationAdapters = DailyTranscationAdapters(this)
+        b.rvDaily.adapter = dailyTranscationAdapters
 
     }
 }

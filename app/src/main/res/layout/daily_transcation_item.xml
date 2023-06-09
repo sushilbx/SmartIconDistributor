@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/rectangle_18"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11/01/2023"
+                android:textColor="#50000000"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp">
+
+                <TextView
+                    android:id="@+id/credit"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:text="Credit" />
+                <TextView
+                    android:id="@+id/rupee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/credit"
+                    android:layout_marginStart="18dp"
+                    android:text="300 Rs"/>
+                <TextView
+                    android:id="@+id/debit"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/credit"
+                    android:layout_marginTop="2dp"
+                    android:text="Debit"/>
+                <TextView
+                    android:id="@+id/rupee1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rupee"
+                    android:layout_marginTop="2dp"
+                    android:layout_toEndOf="@+id/debit"
+                    android:layout_marginStart="18dp"
+                    android:text="200 Rs"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500 Rs"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cash"
+                android:textColor="#06C10D"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="14dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
