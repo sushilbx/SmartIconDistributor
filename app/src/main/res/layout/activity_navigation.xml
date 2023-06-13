@@ -73,7 +73,7 @@
                 android:id="@+id/profile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="profie"
+                android:text="profile"
                 android:padding="10dp"
                 android:textSize="15dp"
                 android:drawableEnd="@drawable/vector__66_"
